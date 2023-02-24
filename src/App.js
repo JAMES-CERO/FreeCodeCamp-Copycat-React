@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className='main-container'>
-        <h1>
+        <h1 className='title'>
           Here is what our alumni say about freeCodeCamp:
         </h1>
         <Data

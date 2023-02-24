@@ -5,7 +5,7 @@ const Data = (props) => {
         <div className="data-box" >
             <img className="img-box"
                   src={require(`../images/${props.pic}.png`)}
-                  alt={props.name}/>
+                  alt={` Pic of  ${props.name}`}/>
             <div className="testimony">
                 <p className="user-name" > <strong>{props.name}</strong> in {props.country}</p>
                 <p className="user-occupation">{props.occupation} at <strong>{props.company}</strong></p>
@@ -14,5 +14,6 @@ const Data = (props) => {
         </div >
     )
 }
- 
+
+
 export default Data
